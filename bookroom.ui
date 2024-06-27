@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BookRoom</class>
+ <widget class="QDialog" name="BookRoom">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Book Room</string>
+  </property>
+  <property name="modal">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>401</width>
+     <height>286</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout">
+    <item row="2" column="0">
+     <widget class="QLabel" name="lastNameLabel">
+      <property name="text">
+       <string> Last Name</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLineEdit" name="txtLastName"/>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="phoneNumberLabel">
+      <property name="text">
+       <string> Phone Number</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="txtPhoneNumber"/>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="nidNumberLabel">
+      <property name="text">
+       <string> Nid Number</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="txtNidNumber"/>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="addressLabel">
+      <property name="text">
+       <string> Address</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="txtAddress"/>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="roomNumberLabel">
+      <property name="text">
+       <string> Room Number</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="txtRoomnumber"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string> Room Type</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QDateEdit" name="DateCheckIn"/>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string> Check In Date</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QLabel" name="checkOutDateLabel">
+      <property name="text">
+       <string> CheckOut Date</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1">
+     <widget class="QDateEdit" name="DateCheckOut"/>
+    </item>
+    <item row="11" column="0">
+     <widget class="QLabel" name="amountLabel">
+      <property name="text">
+       <string> Amount</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="1">
+     <widget class="QLineEdit" name="txtAmount"/>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="txtFirstName"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="firstNameLabel">
+      <property name="text">
+       <string> First Name</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="customerIdLabel">
+      <property name="text">
+       <string> Customer Id</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="txtCustomerId"/>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="txtRoomType"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="btnBook">
+   <property name="geometry">
+    <rect>
+     <x>199</x>
+     <y>290</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Book</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btnCancel">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>290</y>
+     <width>91</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Cancel</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
